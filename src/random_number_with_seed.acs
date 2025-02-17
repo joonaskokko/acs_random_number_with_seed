@@ -46,7 +46,6 @@ function int RandomNumber(int min, int max) {
 	return number;
 }
 
-
 /**
 	Moves pointer the given amount.
 */
