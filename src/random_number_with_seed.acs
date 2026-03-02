@@ -76,6 +76,13 @@ function void SetSeed(int seed) {
 }
 
 /**
+  Get current seed.
+*/
+function int GetSeed(void) {
+  return seedNumbers[seedPointer];
+}
+
+/**
 	Internal test function for development.
 */
 function void __TestRandomNumbers(void) {
